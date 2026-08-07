@@ -1,0 +1,131 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Poppins', sans-serif;
+    background: black;
+    color: white;
+}
+
+nav{
+    width: 100%;
+    padding: 1rem 5%;
+    background: #111;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(15px);
+    margin-bottom: 2rem;
+}
+
+.theWholeNav{
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.nav-links{
+    list-style:none;
+    display: flex;
+    gap: 2rem;
+}
+
+nav li a{
+    position: relative;
+    font-size: 1.2rem;
+    font-weight: 500;
+    text-decoration: none;
+    color: white;
+    transition: 0.3s ease;
+    margin-right: 1rem;
+}
+
+.nav-links li a:hover{
+    color: blue;
+    text-shadow: 0 0 10px blue;
+}
+
+.btns{
+    display: flex;
+}
+
+.btn{
+    padding: 0.5rem 1.5rem;
+    border-radius:30px;
+    font-weight: 600;
+    font-size: 1.2rem;
+    background: blue;
+    color: white;
+    box-shadow: 0 0 10px blue;
+    cursor: pointer;
+    border: none;
+    transition: 0.3s ease;
+    margin-left: auto;
+
+}
+
+.btn:hover{
+    background: blue;
+    color: white;
+    box-shadow: 0 0 25px blue;
+}
+
+.logo img{
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+}
+
+main{
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 2rem;
+    position: relative;
+}
+
+.container1{
+    text-align: center;
+    padding-top: 17%;
+    background: #111;
+    height: 50vh;
+    margin: auto 1rem;
+    position: absolute;
+    width: 100%;
+}
+
+.shop-now-btn{
+    margin-top: 1rem;
+    padding: 0.5rem 1.5rem;
+    border-radius:30px;
+    font-weight: 600;
+    font-size: 1.2rem;
+    background: blue;
+    color: white;
+    box-shadow: 0 0 10px blue;
+    cursor: pointer;
+    border: none;
+    transition: 0.3s ease;
+}
+
+.container2{
+    text-align: center;
+    padding-top: 17%;
+    background: #111;
+    height: 50vh;
+    margin: auto 3rem;
+    position: absolute;
+    width: 100%;
+}
+
+.container3{
+    text-align: center;
+    padding-top: 17%;
+    background: #111;
+    height: 50vh;
+    margin: auto 3rem;
+    position: absolute;
+    width: 100%;
+}
