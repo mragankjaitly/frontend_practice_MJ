@@ -7,8 +7,7 @@ body{
     min-height: 500px;
     display:flex;
     border:7px solid black;
-    justify-content: space-evenly;
-    align-items: center;
+    gap: 10px;
 }
 
 .box{
@@ -16,4 +15,8 @@ body{
     width: 100px;
     background-color: lightblue;
     font-size: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-grow: 1;
 }
