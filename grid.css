@@ -1,0 +1,30 @@
+*{
+    box-sizing: border-box;
+}
+
+.grid-container{
+    display:grid;
+    grid-template-columns: 200px 200px 200px;
+    grid-template-rows: 200px 200px 200px;
+    gap: 1em;
+
+    justify-items: center;
+    align-items: center;
+
+    justify-content: center;
+    align-content:center;
+}
+
+.item {
+
+    height: 100px;
+    width:100px;
+    background-color: blue;
+    color: white;
+    border-radius: 8px;
+    font-size: 2rem;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
